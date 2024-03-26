@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 from __future__ import print_function
 
 import argparse
@@ -39,8 +39,8 @@ args.gazebodir = os.path.expandvars(args.gazebodir)
 args.images_dir = os.path.expandvars(args.images_dir)
 script_path = os.path.dirname(os.path.realpath(__file__))
 model_dir = os.path.join(os.path.dirname(script_path), 'model')
-ORIGINAL_MARKER_SIZE_MM = 500
-ORIGINAL_IMAGE_SIZE_PX = 170
+ORIGINAL_MARKER_SIZE_MM = 1000
+ORIGINAL_IMAGE_SIZE_PX = 354
 white_contour_px = \
     args.white_contour_size_mm * ORIGINAL_IMAGE_SIZE_PX / args.size
 
