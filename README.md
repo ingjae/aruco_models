@@ -11,9 +11,15 @@ sudo apt install graphicsmagick-imagemagick-compat
 
 How to use
 ----------
+### 
+```
+cd {PATH_TO_CLONE}
+git clone https://github.com/ingjae/aruco_models
+```
 ### 마커 생성 
 ```
-cd PATH_TO_CLONE/aruco_models/ar_tags/scripts
+cd {PATH_TO_CLONE}
+cd aruco_models/ar_tags/scripts
 ./generate_markers_model.py -i {image_path} -s 1000 -w 500
 ```
 image_path 예시 : ```~/catkin_ws/src/aruco_models/ar_tags/images```
