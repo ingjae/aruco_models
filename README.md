@@ -28,8 +28,12 @@ image_path 예시 : ```~/catkin_ws/src/aruco_models/ar_tags/images```
 
 ### 가제보에 추가 하는 방법
 - 가제보 world 실행 (turtlebot3 house 등)
-- ```insert``` tap 클릭 후 Marker0, Marker1 추가 (0,1 만 쓸것)
-- 마커 한변의 길이는 50cm로 생성됨
+- ```insert``` tap 클릭 후 Marker0, Marker1 추가 (0,1 만 쓸것)  
+![image](https://github.com/ingjae/aruco_models/assets/52307552/898745c5-2b4e-4fce-9135-934b97c0ba74)  
+
+- 마커 한변의 길이는 50cm로 생성됨  
+![image](https://github.com/ingjae/aruco_models/assets/52307552/51ce3fdf-bae9-4b9e-8890-4b49782d66cb)  
+
 
 ### 마커 모델 제거 방법 
 ```
