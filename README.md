@@ -13,13 +13,15 @@ How to use
 ----------
 ### 마커 생성 
 ```
+cd PATH_TO_CLONE/aruco_models/ar_tags/scripts
 ./generate_markers_model.py -i {image_path} -s 1000 -w 500
 ```
 image_path 예시 : ```~/catkin_ws/src/gazebo_models/ar_tags/images```
 
 ### 마커 제거 후 다시 추가 
 ```
-~/.gazebo/models$ rm -rf marker*
+cd ~/.gazebo/models
+sudo rm -rf marker*
 ```
 
 ### 가제보에 추가 하는 방법
