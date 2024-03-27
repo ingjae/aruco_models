@@ -16,7 +16,7 @@ How to use
 cd PATH_TO_CLONE/aruco_models/ar_tags/scripts
 ./generate_markers_model.py -i {image_path} -s 1000 -w 500
 ```
-image_path 예시 : ```~/catkin_ws/src/gazebo_models/ar_tags/images```
+image_path 예시 : ```~/catkin_ws/src/aruco_models/ar_tags/images```
 
 ### 마커 제거 후 다시 추가 
 ```
